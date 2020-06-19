@@ -55,6 +55,10 @@ inventory_main: "&4&lAdmin GUI"
 inventory_player: "&5&l{player}"
 inventory_world: "&2&lワールド"
 inventory_players: "&1&lプレイヤー"
+inventory_plugins: "&e&lプラグイン"
+inventory_commands: "&2&lコマンド"
+inventory_unban: "&c&lBAN解除"
+inventory_unmute: "&c&lミュート解除"
 inventory_actions: "&9&lアクション &2&l{player}"
 inventory_kick: "&8&lキック &2&l{player}"
 inventory_ban: "&8&lBAN &2&l{player}"
@@ -71,7 +75,10 @@ inventory_inventory: "&a&lインベントリ &2&l{player}"
 main_player: "&5&l{player}"
 main_world: "&2&lワールド"
 main_players: "&9&lプレイヤー"
+main_plugins: "&6&lプラグイン"
 main_maintenance_mode: "&c&lメンテナンスモード"
+main_unban_players: "&c&lBAN/ミュート解除"
+main_language: "&b&l"
 main_quit: "&c&l抜ける"
 #----------------------------------------------------------
 #                      Player GUI
@@ -115,15 +122,15 @@ players_page: "&a&lページ"
 players_next: "&2&l次"
 players_back: "&c&l戻る"
 #----------------------------------------------------------
-# Plugins GUI
+#                     Plugins GUI
 #----------------------------------------------------------
 plugins_back: "&c&l戻る"
 #----------------------------------------------------------
-# Commands GUI
+#                     Commands GUI
 #----------------------------------------------------------
 commands_back: "&c&l戻る"
 #----------------------------------------------------------
-# Unban GUI
+#                     Unban GUI
 #----------------------------------------------------------
 unban_color: "&2&l{player}"
 unban_more: "&cクリックしてこのプレイヤーのBANを解除する"
@@ -132,7 +139,7 @@ unban_page: "&a&lページ"
 unban_next: "&2&l次"
 unban_back: "&c&l戻る"
 #----------------------------------------------------------
-# Unmute GUI
+#                     Unmute GUI
 #----------------------------------------------------------
 unmute_color: "&2&l{player}"
 unmute_more: "&cクリックしてこのプレイヤーのミュートを解除する"
